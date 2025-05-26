@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    display:grid;
+    height:100vh;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(236, 236, 228);
+}
+.box{
+    text-align: center;
+    width:320px;
+    height: 500px;
+    padding: 30px 20px;
+    background:linear-gradient(135deg, #2f00ff,#4e0fbc, #ff1100, #fcb045);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    border-radius:10px;
+}
+#instagram{
+    color: white;
+    font-family:'pacifico',cursive;
+}
+.forget{
+    margin-left:190px;
+    font-size: 15px;
+    color: white;
+}
+form input{
+    width: 95%;
+    padding: 5px;
+    background-color:#fcfcfc;
+    border-color:rgb(92, 204, 204);
+    border-radius:7px;
+}
+form button{
+    width: 100%;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#login{
+    background-color: #0796fcf2;
+    border-radius: 7px;
+    color: white;
+}
+#Facebook{
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(252, 252, 254);
+    font-size: 13px;
+}
+#or{
+    display: flex;
+    gap:20px;
+}
+#line1{
+    width: 118px;
+}
+#line2{
+    width: 118px;
+}
+#line3{
+    margin-top: 140px;
+}
